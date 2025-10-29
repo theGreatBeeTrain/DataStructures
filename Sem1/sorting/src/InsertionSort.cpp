@@ -21,5 +21,7 @@ int InsertionSort(std::vector<T>& target)
 
 	return 0;
 }
-
 template int InsertionSort<int>(std::vector<int>& arr);
+template int InsertionSort<long>(std::vector<long>& arr);
+template int InsertionSort<float>(std::vector<float>& arr);
+template int InsertionSort<double>(std::vector<double>& arr);
