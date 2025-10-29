@@ -21,3 +21,6 @@ int SelectionSort(std::vector<T>& target) {
 	return 0;
 };
 template int SelectionSort<int>(std::vector<int>& arr);
+template int SelectionSort<long>(std::vector<long>& arr);
+template int SelectionSort<float>(std::vector<float>& arr);
+template int SelectionSort<double>(std::vector<double>& arr);
