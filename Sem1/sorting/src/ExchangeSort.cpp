@@ -19,3 +19,6 @@ int ExchangeSort(std::vector<T>& target) {
 };
 
 template int ExchangeSort<int>(std::vector<int>& arr);
+template int ExchangeSort<long>(std::vector<long>& arr);
+template int ExchangeSort<float>(std::vector<float>& arr);
+template int ExchangeSort<double>(std::vector<double>& arr);
