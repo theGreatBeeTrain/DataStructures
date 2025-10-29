@@ -22,4 +22,8 @@ int BubbleSortOptimized(std::vector<T>& target) {
 	return 0;
 }
 
-template int BubbleSortOptimized(std::vector<int>& target);
+template int BubbleSortOptimized<int>(std::vector<int>& arr);
+template int BubbleSortOptimized<long>(std::vector<long>& arr);
+template int BubbleSortOptimized<float>(std::vector<float>& arr);
+template int BubbleSortOptimized<double>(std::vector<double>& arr);
+
