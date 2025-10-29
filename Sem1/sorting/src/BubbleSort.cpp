@@ -16,3 +16,6 @@ int BubbleSort(std::vector<T>& target)
 	return 0;
 }
 template int BubbleSort<int>(std::vector<int>& arr);
+template int BubbleSort<long>(std::vector<long>& arr);
+template int BubbleSort<float>(std::vector<float>& arr);
+template int BubbleSort<double>(std::vector<double>& arr);
