@@ -1,7 +1,8 @@
+#include "../Lab1/lab1/lab1.h"
 #include "../catch2/catch.hpp"
-#include "../lab1.h"
 
-#ifdef ALL
+#ifdef DEBUG
+
 TEST_CASE("Checking compareArray", "[qwerty]") {
 
 	char* input = (char*)malloc(sizeof(char));
@@ -79,4 +80,5 @@ TEST_CASE("Checking editString", "[qwerty]") {
 	REQUIRE(input == expected);
 
 }
-#endif
+
+#endif // DEBUG
