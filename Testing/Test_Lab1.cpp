@@ -1,7 +1,7 @@
-#include "../Lab1/lab1/lab1.h"
+// #include "../Lab1/lab1/lab1.h"
 #include "../catch2/catch.hpp"
 
-#ifdef DEBUG
+#ifdef LAB1_TEST
 
 TEST_CASE("Checking compareArray", "[qwerty]") {
 

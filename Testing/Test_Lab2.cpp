@@ -1,6 +1,7 @@
-#define CATCH_CONFIG_MAIN
-#include "../Lab2/laba2.h"
+// #include "../Lab2/laba2.h"
 #include "catch2/catch.hpp"
+
+#ifdef LAB2_TEST
 
 TEST_CASE("lol") {
 
@@ -17,3 +18,5 @@ TEST_CASE("lol") {
 
 
 }
+
+#endif

@@ -3,6 +3,8 @@
 #include <string>
 #pragma once
 
+#define LAB1_TEST
+
 void printArray(char* arr, int length);
 int compareArray(char* arr1, char* arr2, int length);
 char* value(char* arr, std::string input);
