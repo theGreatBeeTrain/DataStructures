@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Sem1">
+      <UniqueIdentifier>{4f23dee1-b2ab-4358-9814-c190be86eedd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Sem1">
+      <UniqueIdentifier>{1511868c-e7ba-4970-9b25-1a752aee32f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Sem2">
+      <UniqueIdentifier>{74ad3c3c-3151-466c-ba45-7814b008944b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Sem2">
+      <UniqueIdentifier>{712b86ee-7ba1-49d5-a82e-b4378eb0e099}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Sem1\sorting\include\uniArray.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Sem1\sorting\include\BubbleSort.h">
+      <Filter>Header Files\Sem1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Sem1\sorting\include\BubbleSortOptimized.h">
+      <Filter>Header Files\Sem1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Sem1\sorting\include\ExchangeSort.h">
+      <Filter>Header Files\Sem1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Sem1\sorting\include\InsertionSort.h">
+      <Filter>Header Files\Sem1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Sem1\sorting\include\SelectionSort.h">
+      <Filter>Header Files\Sem1</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Sem1\sorting\src\BubbleSort.cpp">
+      <Filter>Source Files\Sem1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Sem1\sorting\src\BubbleSortOptimized.cpp">
+      <Filter>Source Files\Sem1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Sem1\sorting\src\ExchangeSort.cpp">
+      <Filter>Source Files\Sem1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Sem1\sorting\src\InsertionSort.cpp">
+      <Filter>Source Files\Sem1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Sem1\sorting\src\SelectionSort.cpp">
+      <Filter>Source Files\Sem1</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
