@@ -1,10 +1,12 @@
 #define CATCH_CONFIG_MAIN
-#include "../catch2/catch.hpp"
+#include "catch2/catch.hpp"
+/*
 #include "../Sem1/sorting/include/InsertionSort.h"
 #include "../Sem1/sorting/include/SelectionSort.h"
 #include "../Sem1/sorting/include/ExchangeSort.h"
 #include "../Sem1/sorting/include/BubbleSort.h"
 #include "../Sem1/sorting/include/BubbleSortOptimized.h"
+*/
 
 #ifdef INSERTION_SORT
 TEST_CASE("Testing InsertionSort") {

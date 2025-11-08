@@ -25,6 +25,9 @@
     <Filter Include="Header Files\Sem2">
       <UniqueIdentifier>{712b86ee-7ba1-49d5-a82e-b4378eb0e099}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\Lab3">
+      <UniqueIdentifier>{6214d291-6795-4a80-a939-f3c3b0260e5d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\Sem1\sorting\include\uniArray.h">
@@ -45,6 +48,21 @@
     <ClInclude Include="..\Sem1\sorting\include\SelectionSort.h">
       <Filter>Header Files\Sem1</Filter>
     </ClInclude>
+    <ClInclude Include="..\Lab3\OneList.h">
+      <Filter>Header Files\Lab3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Lab3\Element.h">
+      <Filter>Header Files\Lab3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Sem2\sorting\include\ShakerSort.h">
+      <Filter>Header Files\Sem2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Sem2\sorting\include\InsertionSortBinary.h">
+      <Filter>Header Files\Sem2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Testing\catch2\catch.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\Sem1\sorting\src\BubbleSort.cpp">
@@ -61,6 +79,27 @@
     </ClCompile>
     <ClCompile Include="..\Sem1\sorting\src\SelectionSort.cpp">
       <Filter>Source Files\Sem1</Filter>
+    </ClCompile>
+    <ClCompile Include="DS_WRITE_MAIN.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Sem2\sorting\src\ShakerSort.cpp">
+      <Filter>Source Files\Sem2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Sem2\sorting\src\InsertionSortBinary.cpp">
+      <Filter>Source Files\Sem2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Testing\Test_Lab1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Testing\Test_Lab2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Testing\Test_Sem1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Testing\Test_Sem2.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

@@ -139,12 +139,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="..\Lab3\Element.h" />
+    <ClInclude Include="..\Lab3\OneList.h" />
     <ClInclude Include="..\Sem1\sorting\include\BubbleSort.h" />
     <ClInclude Include="..\Sem1\sorting\include\BubbleSortOptimized.h" />
     <ClInclude Include="..\Sem1\sorting\include\ExchangeSort.h" />
     <ClInclude Include="..\Sem1\sorting\include\InsertionSort.h" />
     <ClInclude Include="..\Sem1\sorting\include\SelectionSort.h" />
     <ClInclude Include="..\Sem1\sorting\include\uniArray.h" />
+    <ClInclude Include="..\Sem2\sorting\include\ShakerSort.h" />
+    <ClInclude Include="..\Sem2\sorting\include\InsertionSortBinary.h" />
+    <ClInclude Include="..\Testing\catch2\catch.hpp" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\Sem1\sorting\src\BubbleSort.cpp" />
@@ -152,6 +157,13 @@
     <ClCompile Include="..\Sem1\sorting\src\ExchangeSort.cpp" />
     <ClCompile Include="..\Sem1\sorting\src\InsertionSort.cpp" />
     <ClCompile Include="..\Sem1\sorting\src\SelectionSort.cpp" />
+    <ClCompile Include="..\Sem2\sorting\src\ShakerSort.cpp" />
+    <ClCompile Include="..\Sem2\sorting\src\InsertionSortBinary.cpp" />
+    <ClCompile Include="..\Testing\Test_Lab1.cpp" />
+    <ClCompile Include="..\Testing\Test_Lab2.cpp" />
+    <ClCompile Include="..\Testing\Test_Sem1.cpp" />
+    <ClCompile Include="..\Testing\Test_Sem2.cpp" />
+    <ClCompile Include="DS_WRITE_MAIN.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
