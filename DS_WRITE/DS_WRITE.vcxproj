@@ -159,10 +159,12 @@
     <ClCompile Include="..\Sem1\sorting\src\SelectionSort.cpp" />
     <ClCompile Include="..\Sem2\sorting\src\ShakerSort.cpp" />
     <ClCompile Include="..\Sem2\sorting\src\InsertionSortBinary.cpp" />
+    <ClCompile Include="..\Sem3\sorting\src\QuickSort.cpp" />
     <ClCompile Include="..\Testing\Test_Lab1.cpp" />
     <ClCompile Include="..\Testing\Test_Lab2.cpp" />
     <ClCompile Include="..\Testing\Test_Sem1.cpp" />
     <ClCompile Include="..\Testing\Test_Sem2.cpp" />
+    <ClCompile Include="..\Testing\Test_Sem3.cpp" />
     <ClCompile Include="DS_WRITE_MAIN.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

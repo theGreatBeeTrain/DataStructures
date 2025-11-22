@@ -1,6 +1,6 @@
-#include "../Testing/catch2/catch.hpp"
-#include "../Sem2/sorting/include/ShakerSort.h"
-#include "../Sem2/sorting/include/InsertionSortBinary.h"
+#include "catch2/catch.hpp"
+//#include "../Sem2/sorting/include/ShakerSort.h"
+//#include "../Sem2/sorting/include/InsertionSortBinary.h"
 
 #ifdef SHAKER_SORT
 TEST_CASE("Testing ShakerSort") {
