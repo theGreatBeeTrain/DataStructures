@@ -32,15 +32,12 @@ TEST_CASE("Testing QuickSort") {
 	QuickSort(vInt);
 	REQUIRE(vInt == vIntExpected);
 
-	// темплейты не работают мне плохо(((
-	// надо было раньше проверять лол
-	// пофигу, утром сделаю
-	/*
+
 	std::vector<double> vDouble = { 9999.1, 99999.2, 99.3, 999.4 };
 	std::vector<double> vDoubleExpected = { 99.3, 999.4, 9999.1, 99999.2 };
-	QuickSort(vInt);
+	// забыл поменять vInt на vDouble в QuickSort'е, упс)))
+	QuickSort(vDouble);
 	REQUIRE(vDouble == vDoubleExpected);
-	*/
 
 }
 
