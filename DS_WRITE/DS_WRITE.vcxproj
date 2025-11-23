@@ -149,6 +149,8 @@
     <ClInclude Include="..\Sem1\sorting\include\uniArray.h" />
     <ClInclude Include="..\Sem2\sorting\include\ShakerSort.h" />
     <ClInclude Include="..\Sem2\sorting\include\InsertionSortBinary.h" />
+    <ClInclude Include="..\Sem3\sorting\include\QuickSort.h" />
+    <ClInclude Include="..\Sem3\sorting\include\ShellSort.h" />
     <ClInclude Include="..\Testing\catch2\catch.hpp" />
   </ItemGroup>
   <ItemGroup>
@@ -160,6 +162,7 @@
     <ClCompile Include="..\Sem2\sorting\src\ShakerSort.cpp" />
     <ClCompile Include="..\Sem2\sorting\src\InsertionSortBinary.cpp" />
     <ClCompile Include="..\Sem3\sorting\src\QuickSort.cpp" />
+    <ClCompile Include="..\Sem3\sorting\src\ShellSort.cpp" />
     <ClCompile Include="..\Testing\Test_Lab1.cpp" />
     <ClCompile Include="..\Testing\Test_Lab2.cpp" />
     <ClCompile Include="..\Testing\Test_Sem1.cpp" />

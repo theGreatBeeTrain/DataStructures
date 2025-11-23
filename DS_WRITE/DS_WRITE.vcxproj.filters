@@ -28,6 +28,12 @@
     <Filter Include="Header Files\Lab3">
       <UniqueIdentifier>{6214d291-6795-4a80-a939-f3c3b0260e5d}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\Sem3">
+      <UniqueIdentifier>{37a03feb-60c8-481f-81d7-8000aa9e64ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Tests">
+      <UniqueIdentifier>{7fb6b302-676d-4fd2-9fb6-70b623414787}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\Sem1\sorting\include\uniArray.h">
@@ -63,6 +69,12 @@
     <ClInclude Include="..\Testing\catch2\catch.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="..\Sem3\sorting\include\QuickSort.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Sem3\sorting\include\ShellSort.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\Sem1\sorting\src\BubbleSort.cpp">
@@ -89,23 +101,26 @@
     <ClCompile Include="..\Sem2\sorting\src\InsertionSortBinary.cpp">
       <Filter>Source Files\Sem2</Filter>
     </ClCompile>
-    <ClCompile Include="..\Testing\Test_Lab1.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Testing\Test_Lab2.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Testing\Test_Sem1.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Testing\Test_Sem2.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Testing\Test_Sem3.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="..\Sem3\sorting\src\ShellSort.cpp">
+      <Filter>Source Files\Sem3</Filter>
     </ClCompile>
     <ClCompile Include="..\Sem3\sorting\src\QuickSort.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\Sem3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Testing\Test_Lab1.cpp">
+      <Filter>Source Files\Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Testing\Test_Lab2.cpp">
+      <Filter>Source Files\Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Testing\Test_Sem1.cpp">
+      <Filter>Source Files\Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Testing\Test_Sem2.cpp">
+      <Filter>Source Files\Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Testing\Test_Sem3.cpp">
+      <Filter>Source Files\Tests</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
