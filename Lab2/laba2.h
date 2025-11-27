@@ -1,7 +1,7 @@
 #pragma once
 #include <string>
 
-#ifdef LAB2_TEST
+#define LAB2_TEST
 
 //
 // 1. Дана строка символов. Необходимо ввести ее, используя функцию malloc, free.
@@ -26,6 +26,6 @@ char* putCharMalloc(char* adress, int m, char c);
 // с задачей.
 //
 char* readStringCalloc();
-char* putCharRealloc(char* adress, int set ,int m, char c);
+char* putCharRealloc(char* adress, int m, char c);
 
 char* fileToArr(std::string FILENAME = "laba2_test.txt");

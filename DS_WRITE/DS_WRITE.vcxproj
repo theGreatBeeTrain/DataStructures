@@ -154,6 +154,7 @@
     <ClInclude Include="..\Testing\catch2\catch.hpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="..\Lab2\laba2.cpp" />
     <ClCompile Include="..\Sem1\sorting\src\BubbleSort.cpp" />
     <ClCompile Include="..\Sem1\sorting\src\BubbleSortOptimized.cpp" />
     <ClCompile Include="..\Sem1\sorting\src\ExchangeSort.cpp" />
